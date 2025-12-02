@@ -1,0 +1,15 @@
+{
+  "alumne":"alumne",
+  "attendance":[
+    {"assignatura":"TU (Tutoria)","present":3,"absent":0,"justified":0,"late":0,"percent":"0%"},
+    {"assignatura":"OPT (Cloud)","present":17,"absent":0,"justified":0,"late":0,"percent":"0%"},
+    {"assignatura":"(1709) IPO1","present":13,"absent":9,"justified":0,"late":0,"percent":"41%"},
+    {"assignatura":"PRO (Projectes)","present":42,"absent":11,"justified":0,"late":0,"percent":"21%"},
+    {"assignatura":"(1710) IPO2","present":13,"absent":3,"justified":0,"late":0,"percent":"19%"},
+    {"assignatura":"(0374) ASO","present":24,"absent":0,"justified":0,"late":0,"percent":"0%"},
+    {"assignatura":"(0375) SXI","present":11,"absent":3,"justified":0,"late":0,"percent":"21%"},
+    {"assignatura":"(0376) IAW","present":12,"absent":2,"justified":0,"late":0,"percent":"14%"},
+    {"assignatura":"(0378) SAD","present":12,"absent":0,"justified":0,"late":0,"percent":"0%"}
+  ],
+  "totals":{"present":147,"absent":28,"justified":0,"late":0,"percent":"16%"}
+}

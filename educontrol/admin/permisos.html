@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Permisos</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="sidebar">
+    <h2>Administrador</h2>
+    <div class="menu-item" onclick="location.href='dashboard.html'">Dashboard</div>
+    <div class="menu-item" onclick="location.href='usuarios.html'">Usuaris</div>
+    <div class="menu-item" onclick="location.href='logs.html'">Logs</div>
+    <div class="menu-item" onclick="logout()">Tancar sessió</div>
+  </div>
+
+  <div class="main">
+    <h1>Assignar permisos</h1>
+    <p>Permisos disponibles (exemples):</p>
+    <ul>
+      <li>read_attendance</li>
+      <li>write_attendance</li>
+      <li>send_messages</li>
+      <li>manage_users</li>
+    </ul>
+    <button class="btn" id="assignPerm">Assignar permisos (simulat)</button>
+    <p id="permStatus" class="small"></p>
+  </div>
+
+<script src="../js/admin.js"></script>
+</body>
+</html>

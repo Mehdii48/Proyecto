@@ -1,0 +1,23 @@
+{
+  "1rASIX":[
+    {"code":"0369","name":"Implantació de sistemes operatius","hours_week":4,"hours_center":132,"hours_company":99,"total":231},
+    {"code":"0371","name":"Fonaments de maquinari","hours_week":2,"hours_center":66,"hours_company":33,"total":99},
+    {"code":"1708","name":"Sostenibilitat aplicada al sistema productiu","hours_week":1,"hours_center":33,"hours_company":0,"total":33},
+    {"code":"0372","name":"Gestió de bases de dades +","hours_week":4,"hours_center":132,"hours_company":66,"total":198},
+    {"code":"0377","name":"Administració de sistemes gestors de bases de dades","hours_week":1,"hours_center":33,"hours_company":33,"total":66},
+    {"code":"0373","name":"Llenguatges de marques i sistemes de gestió d’informació","hours_week":2,"hours_center":66,"hours_company":33,"total":99},
+    {"code":"0370","name":"Planificació i administració de xarxes","hours_week":4,"hours_center":132,"hours_company":53,"total":185},
+    {"code":"0179","name":"Anglès professional","hours_week":2,"hours_center":66,"hours_company":0,"total":66},
+    {"code":"1709","name":"Itinerari Personal per a l’Ocupabilitat I","hours_week":3,"hours_center":99,"hours_company":0,"total":99}
+  ],
+  "2nASIX":[
+    {"code":"0374","name":"Administració de sistemes operatius","hours_week":4,"hours_center":132,"hours_company":66,"total":198},
+    {"code":"0376","name":"Implantació d’aplicacions web","hours_week":2,"hours_center":66,"hours_company":33,"total":99},
+    {"code":"0375","name":"Serveis de xarxa i internet","hours_week":2,"hours_center":66,"hours_company":66,"total":132},
+    {"code":"0378","name":"Seguretat i alta disponibilitat","hours_week":2,"hours_center":66,"hours_company":33,"total":99},
+    {"code":"1710","name":"Itinerari Personal per a l’Ocupabilitat II","hours_week":2,"hours_center":66,"hours_company":0,"total":66},
+    {"code":"MPO","name":"Mòdul professional optatiu +","hours_week":3,"hours_center":99,"hours_company":0,"total":99},
+    {"code":"1665","name":"Digitalització aplicada als sectors productius","hours_week":1,"hours_center":33,"hours_company":0,"total":33},
+    {"code":"0379","name":"Projecte intermodular d’administració de sistemes informàtics en xarxa","hours_week":6,"hours_center":198,"hours_company":0,"total":198}
+  ]
+}

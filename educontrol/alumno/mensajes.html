@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Alumne - Missatges</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="sidebar">
+    <h2>Alumne</h2>
+    <div class="menu-item" onclick="location.href='dashboard.html'">Dashboard</div>
+    <div class="menu-item" onclick="location.href='faltas.html'">Faltes</div>
+    <div class="menu-item" onclick="logout()">Tancar sessió</div>
+  </div>
+
+  <div class="main">
+    <h1>Enviar missatge</h1>
+    <label>Correu del professor</label>
+    <input id="profEmail" placeholder="professor@exemple.com">
+    <label>Missatge</label>
+    <textarea id="msgText"></textarea>
+    <button class="btn" id="sendBtn">Enviar</button>
+    <p id="status" class="small"></p>
+  </div>
+
+<script src="../js/alumno.js"></script>
+</body>
+</html>

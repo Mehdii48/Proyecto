@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Logs</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="sidebar">
+    <h2>Administrador</h2>
+    <div class="menu-item" onclick="location.href='dashboard.html'">Dashboard</div>
+    <div class="menu-item" onclick="location.href='usuarios.html'">Usuaris</div>
+    <div class="menu-item" onclick="location.href='permisos.html'">Permisos</div>
+    <div class="menu-item" onclick="logout()">Tancar sessió</div>
+  </div>
+
+  <div class="main" id="mainContent">
+    <h1>Logs / Canvis de llista</h1>
+    <div id="logsArea"></div>
+  </div>
+
+<script src="../js/admin.js"></script>
+</body>
+</html>

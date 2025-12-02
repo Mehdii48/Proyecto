@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Missatges (Professor)</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="sidebar">
+    <h2>Professor</h2>
+    <div class="menu-item" onclick="location.href='dashboard.html'">Dashboard</div>
+    <div class="menu-item" onclick="location.href='pasar_lista.html'">Passar llista</div>
+    <div class="menu-item" onclick="logout()">Tancar sessió</div>
+  </div>
+
+  <div class="main">
+    <h1>Enviar missatge / notificació</h1>
+    <label>Missatge</label>
+    <textarea id="msgText"></textarea>
+    <label>Enviar a</label>
+    <select id="msgTarget">
+      <option value="all">Tota la classe</option>
+      <!-- opcions es generen en profe.js -->
+    </select>
+    <button class="btn" id="sendBtn">Enviar</button>
+    <p id="status" class="small"></p>
+  </div>
+
+<script src="../js/profe.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Panell Administrador</title>
+<link rel="stylesheet" href="../css/style.css">
+<style>
+  .main-container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #555;
+    background-color: #aca7a7(0, 0%, 18%);
+    color: #f5f5f5;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #555;
+    background-color: #2e2e2e;
+    color: #f5f5f5;
+    cursor: pointer;
+  }
+  
+  label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #f5f5f5;
+  }
+  
+  #panelContent {
+    background-color: #3a3a3a;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #2e2e2e;
+    color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #3a3a3a;
+    color: #f5f5f5;
+    border: 1px solid #555;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  #resultContainer {
+    margin-top: 20px;
+  }
+</style>
+</head>
+<body>
+<header>
+<h2>Panell d'Administrador</h2>
+<button id="logout">Tancar sessió</button>
+</header>
+
+<div class="main-container">
+  <select id="opcioSelect">
+    <option value="">--Tria una opció--</option>
+    <option value="usuaris">Gestió Usuaris</option>
+    <option value="faltes">Veure Faltes dels Alumnes</option>
+    <option value="missatge">Enviar Missatge</option>
+  </select>
+
+  <div id="panelContent"></div>
+</div>
+
+<script src="../js/admin.js"></script>
+</body>
+</html>

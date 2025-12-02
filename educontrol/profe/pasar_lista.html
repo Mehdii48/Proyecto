@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Passar llista</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="sidebar">
+    <h2>Professor</h2>
+    <div class="menu-item" onclick="location.href='dashboard.html'">Dashboard</div>
+    <div class="menu-item" onclick="location.href='mensajes.html'">Missatges</div>
+    <div class="menu-item" onclick="logout()">Tancar sessió</div>
+  </div>
+
+  <div class="main" id="mainContent">
+    <h1>Passar llista</h1>
+
+    <label>Selecciona curs</label>
+    <select id="cursoSelect">
+      <option value="1rASIX">1r ASIX</option>
+      <option value="2nASIX">2n ASIX</option>
+    </select>
+
+    <label>Selecciona assignatura</label>
+    <select id="asignaturaSelect"></select>
+
+    <label>Selecciona franja horària (08:00 - 21:00)</label>
+    <input type="time" id="hourStart" value="08:00"> a <input type="time" id="hourEnd" value="09:00">
+
+    <button id="loadList" class="btn">Generar Llista</button>
+
+    <div id="listWrapper"></div>
+  </div>
+
+<script src="../js/profe.js"></script>
+</body>
+</html>
